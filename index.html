@@ -1,0 +1,190 @@
+<!-- Wireframe: https://balsamiq.cloud/s3tu4ib/pr6jl2v/r751E -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday Supper Club</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Header -->
+    <header class="header"> 
+
+        <div class="header-logo">
+            <img class="header-logo-image" id="header-logo" src="./resources/fork.png">
+        </div>
+
+        <div class="navbar">
+
+            <ul class="navbarul">
+                <li class="navbarli"><a href="#mission">About Us</a></li>
+                <li class="navbarli"><a href="#past-meals">Past Meals</a></li>
+                <li class="navbarli"><a href="#join-us">Join Us</a></li>
+            </ul>
+
+        </div>
+
+
+    </header>
+
+
+<!-- Mission -->
+
+    <div class="mission" id="mission">
+
+        <div class="mission-title-block">
+            <h1>Saturday Supper Club</h1>
+        </div>
+
+        <div class="mission-text-block">
+
+            <h2>Our Mission</h2>
+            <p>At Saturday Supper Club, our mission is to connect people over food. We want to provide a place where individuals from different backgrounds and age groups can come together to hone their culinary skills and build new friendships. Our menus rotate each month and feature exciting dishes such as curries, surf-and-turf, and even breakfast for dinner! If you are interested in joining us, complete the <a class="link" href="#join-us"><strong>interest form</strong></a> at the bottom of this page.</p>
+
+        </div>
+
+    </div>
+
+
+<!-- Past Meals Section -->
+
+    <div class="past-meals" id="past-meals">
+
+        <div class="past-meals-title-block">
+            <h2>Past Meals</h2>
+        </div>
+
+        <div class="meal-item-block">
+            <h3>Smash Burger</h3>
+            <img class="meal-item-image" src="./resources/burger.jpg">
+            <p>Tasty burger made with ground beef, onions, and spices smashed to perfection and served with handcut french fries.</p>
+        </div>
+
+        <div class="meal-item-block">
+            <h3>Eggs Benedict</h3>
+            <img class="meal-item-image" src="./resources/eggs.jpg">
+            <p>Who doesn't love breakfast for dinner? Two poached eggs on an English muffin and served with homemade Hollondaise sauce. </p>
+        </div>
+
+        <div class="meal-item-block">
+            <h3>Salmon Salad</h3>
+            <img class="meal-item-image" src="./resources/salmonsalad.jpg">
+            <p>Garden fresh salad dressed with lemon garlic vinaigrette and topped with orange marinated grilled salmon.  </p>
+        </div>
+
+        <div class="meal-item-block">
+            <h3>Ramen Dumplings</h3>
+            <img class="meal-item-image" src="./resources/ramen.jpg">
+            <p>Warm ramen soup, soft-boiled egg, rice noodles, and crisp vegetables served with freshly steamed pork dumplings.</p>
+        </div>
+
+
+    </div>
+
+
+<!-- Testimonials -->
+
+    <section class="testimonials">
+
+        <div class="testimonials-title-block">
+            <h2>Testimonials</h2>
+
+        </div>
+
+        <div class="testimonials-block">
+            
+            <div class="image-container">
+                <img class="testimonials-image" src="./resources/femalecooking.jpg">
+            </div>
+
+            <div class="testimonials-text-block">
+                <h3>Jennifer Franklin</h3>
+                <p>Joined supper club in March 2022</p>
+                <p>"Ever since joining supper club, my skills as a chef have increased exponentially. I love getting to learn new recipes and cooking together with other foodies."</p>
+            </div>
+
+        </div>
+      
+      
+        <div class="testimonials-block">
+            
+            <div class="image-container">
+                <img class="testimonials-image" src="./resources/malecooking.jpg">
+            </div>
+
+            <div class="testimonials-text-block">
+                <h3>Andrew Barry</h3>
+                <p>Joined supper club in December 2022</p>
+                <p>"I used to hate cooking and would spend hours worrying about what to cook and procrastinating instead of cooking. Supper club has increased my confidence in my own cooking skills."</p>
+            </div>
+
+        </div>
+      
+
+        <div class="testimonials-block">
+            
+            <div class="image-container">
+                <img class="testimonials-image" src="./resources/groupcooking.jpg">
+            </div>
+
+            <div class="testimonials-text-block">
+                <h3>Susie Thomas </h3>
+                <p>Joined supper club in June 2023</p>
+                <p>"I have so enjoyed being a member of the supper club. I moved to town just last year, and this was a great way for me to make new friends and have a ton of fun in the process! I have learned many new recipes and met many new people."</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!-- Join Us Section -->
+
+    <section class="join-us" id="join-us">
+
+        <div class="join-us-title-block">
+            <h2>Join Us</h2>
+
+        </div>
+
+
+        <div class="join-us-form-block">
+
+            <form class="join-us-form-block" action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address..">
+            
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Tell us a little about yourself.." style="height:200px"></textarea>
+            
+                <input id="submit" type="submit" value="Submit">
+            
+            </form>
+            
+            
+        </div>
+
+    </section>
+
+
+<!-- Footer -->
+
+
+
+</body>
+</html>
